@@ -1,4 +1,10 @@
-const img19 = "../../images/19.jpg"
+export const img19 = require("../../images/19.jpg");
+export const img21 = require("../../images/21.jpg");
+export const img43 = require("../../images/43.jpg");
+export const img45 = require("../../images/45.jpg");
+export const img66 = require("../../images/66.jpg");
+export const img80 = require("../../images/80.jpg");
+
 export const SectionContent =()=>{
  
   return (
@@ -12,19 +18,19 @@ export const SectionContent =()=>{
           <img src={img19} alt="спорт инвентарь"></img>
         </div>
         <div className="galleryItems">
-          <img src="../../images/21.jpg" alt=""></img>
+          <img src={img21} alt=""></img>
         </div>
         <div className="galleryItems">
-          <img src="../../images/43.jpg" alt=""></img>
+          <img src={img43} alt=""></img>
+        </div>
+        <div className="galleryItems itemBig">
+          <img src={img45} alt=""></img>
         </div>
         <div className="galleryItems">
-          <img src="../../images/45.jpg" alt=""></img>
+          <img src={img66} alt=""></img>
         </div>
         <div className="galleryItems">
-          <img src="../../images/66.jpg" alt=""></img>
-        </div>
-        <div className="galleryItems">
-          <img src="../../images/80.jpg" alt=""></img>
+          <img src={img80} alt=""></img>
         </div>
       </div>
 

@@ -1,11 +1,13 @@
 // Контент (gril-элемент + gril-контейнер){children}
 
+import { Main } from "./MainPage.styled"
+
 
 export const MainPage = ({children})=> {
 
   return(
-    <main className="main">
+    <Main className="main">
       {children}
-    </main>
+    </Main>
   )
 }

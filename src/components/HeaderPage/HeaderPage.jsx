@@ -1,21 +1,24 @@
 // Шапка (gril - элемент)
 
+import { Header } from "./HeaderPage.styled";
+import { iconsLogo } from "../../images/svg/svg";
+
 export const HeaderPage = () => {
   return (
-    <div className="header">
-      <a className="headerLogo" href="#"></a>
+    <Header className="header">
+      <a className="headerLogo" href="#">{iconsLogo}</a>
       <nav className="headerMenu">
         <ul className="headerList">
-          <li><a className="headerLinck" href="#">Пункт меню</a></li>
-          <li><a className="headerLinck" href="#">Пункт меню</a></li>
-          <li><a className="headerLinck" href="#">Пункт меню</a></li>
-          <li><a className="headerLinck" href="#">Пункт меню</a></li>
-          <li><a className="headerLinck" href="#">Пункт меню</a></li>
+          <li className="headerItem"><a className="headerLink" href="#">Пункт меню</a></li>
+          <li className="headerItem"><a className="headerLink" href="#">Пункт меню</a></li>
+          <li className="headerItem"><a className="headerLink" href="#">Пункт меню</a></li>
+          <li className="headerItem"><a className="headerLink" href="#">Пункт меню</a></li>
+          <li className="headerItem"><a className="headerLink" href="#">Пункт меню</a></li>
         </ul>
         <div className="headerBurger">
           <span></span>
         </div>
       </nav>
-    </div>
+    </Header>
   );
 };
