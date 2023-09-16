@@ -6,19 +6,21 @@ import { SectionContent } from './components/SectionContent/SectionContent';
 import {SideBarPage} from './components/SideBarPage/SideBarPage';
 import{SectionProducts} from './components/SectionProducts/SectionProducts'
 import { FooterPage } from './components/FooterPage/FooterPage';
+import { TreningListPage } from './components/TreningList/TreningList';
 
 function App() {
   return (
-    <ContainerPage className="wrapper">
-      <HeaderPage />
-      <MainPage >
-        <SideBarPage/>
-        <SectionContent>
-        <SectionProducts/>
-        </SectionContent>
-      </MainPage>
-      <FooterPage/>
-    </ContainerPage>
+    // <ContainerPage className="wrapper">
+    //   <HeaderPage />
+    //   <MainPage >
+    //     <SideBarPage/>
+    //     <SectionContent>
+    //     <SectionProducts/>
+    //     </SectionContent>
+    //   </MainPage>
+    //   <FooterPage/>
+    // </ContainerPage>
+    <TreningListPage/>
   );
 }
 
