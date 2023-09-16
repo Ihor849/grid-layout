@@ -13,8 +13,9 @@ function App() {
       <HeaderPage />
       <MainPage >
         <SideBarPage/>
-        <SectionContent/>
+        <SectionContent>
         <SectionProducts/>
+        </SectionContent>
       </MainPage>
       <FooterPage/>
     </ContainerPage>
