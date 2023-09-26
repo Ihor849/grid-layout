@@ -1,7 +1,7 @@
-import { Wrapper } from "./ContainerPage.styled"
+import { Wrapper } from "./Container.styled"
 
 // Оболочка (grid - контейнер)
-export const ContainerPage = ({children})=>{
+export const Container = ({children})=>{
 
   return(
     <Wrapper className="wrapper">
